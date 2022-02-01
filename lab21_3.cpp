@@ -88,11 +88,11 @@ int main(){
 			}			
 		}else{
 			if(textline == "---------------------------------------"){
-				pos++;
+				a++;
 				state = 1;
 			}else{
 				student *p = findstudent(allstudents,atof(textline.c_str()));
-				allcourses[pos].student_list.push_back(p);
+				allcourses[a].student_list.push_back(p);
 			}
 		}
 	}
